@@ -1,7 +1,7 @@
 .top {
     width: 100%;
     height: 50px;
-    background: lightblue;
+    background: rgb(224, 181, 89);
     
 }
 .top-left {
@@ -27,14 +27,23 @@
 .mid {
     width: 100%;
     height: 400px;
-    background: lightcoral;
+
     margin-top: 10px;
 }
 .mid-left {
     width: 20%;
     height: 400px;
-    background: seagreen;
+   
     float: left;
+}
+ul li {
+        display: block;
+        color: white;
+        text-align: left;
+        background: rgb(224, 181, 89);
+        text-decoration: none;
+        margin-top: 5%;
+
 }
 .mid-mid {
     width: 58%;
@@ -43,21 +52,33 @@
     margin-left: 1%;
 
 }
-.tr td {
+tr td {
     text-align: right;
     width: 150px;
 }
-.mid-right {
+.mid-right{
     width: 20%;
     height: 400px;
     background: rgb(51, 97, 158);
     float: left;
     margin-left: 1%;
+    background-size: cover;
+
 
 }
+.mid-right img
+{
+    width: 100%;
+    height: 400px;
+}
 .bot   {
+    ;
     width: 100%;
     height: 50px;
-    background: lightgray;
+    background: rgb(224, 181, 89);
     margin-top: 10px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+
 }
