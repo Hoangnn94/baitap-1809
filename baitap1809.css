@@ -1,0 +1,63 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background: lightblue;
+    
+}
+.top-left {
+    width: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 50px;
+    float: left;
+
+}
+.top-right {
+    width: 40%;
+    float: right;
+    padding-right: 5px;
+    line-height: 50px;
+    
+}
+.ite{
+    float: right;
+    margin-right: 5px;
+}
+.mid {
+    width: 100%;
+    height: 400px;
+    background: lightcoral;
+    margin-top: 10px;
+}
+.mid-left {
+    width: 20%;
+    height: 400px;
+    background: seagreen;
+    float: left;
+}
+.mid-mid {
+    width: 58%;
+    height: 400px;
+    float: left;
+    margin-left: 1%;
+
+}
+.tr td {
+    text-align: right;
+    width: 150px;
+}
+.mid-right {
+    width: 20%;
+    height: 400px;
+    background: rgb(51, 97, 158);
+    float: left;
+    margin-left: 1%;
+
+}
+.bot   {
+    width: 100%;
+    height: 50px;
+    background: lightgray;
+    margin-top: 10px;
+}
